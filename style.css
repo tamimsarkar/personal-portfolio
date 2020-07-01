@@ -1,0 +1,64 @@
+/* Reusable CSS */
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+section{
+    height: 550px;
+    padding-bottom: 100px;
+}img{
+    width: 100%;
+}
+
+/* header section */
+#top-section{
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: left top;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding:0% 3% ;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+.half-width h1{
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+.half-width h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: lightsalmon;
+}
+.half-width p{
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.link-button{
+    padding: 12px 30px;
+    background-image: linear-gradient(75deg,lightsalmon,tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link-button i{
+    margin-left: 5px;
+}
+/* End Header section */
+
+/* Bio Section Start */
+.bio-head{
+    margin-top: 150px;
+}
+
+/* Bio Section End */
