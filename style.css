@@ -43,6 +43,9 @@ section{
     line-height: 1.5;
     margin-bottom: 50px;
 }
+.half-width img{
+    margin-top: 60px;
+}
 .link-button{
     padding: 12px 30px;
     background-image: linear-gradient(75deg,lightsalmon,tomato);
@@ -57,8 +60,102 @@ section{
 /* End Header section */
 
 /* Bio Section Start */
+
+#bio-section{
+    background-image: url(images/biography-bg.png);
+}
 .bio-head{
     margin-top: 150px;
 }
 
 /* Bio Section End */
+
+/* Start Letest work section */
+
+#work-section{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    background-position: right top;
+    
+}
+#work-section h2{
+    text-align: center;
+    margin: 80px 0px;
+}
+.letest-works{
+    width: 1170px;
+    margin: auto;
+   
+}
+.worksite{
+    width: 30%;
+   display: inline-block;
+   margin-left: 15px;
+   margin-top: 60px;
+  
+}
+.worksite img{
+    width: 100%;
+}
+/* End letest work section */
+
+/* Clients Section Start */
+#clients-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 0px;
+ 
+}
+#clients-section h2{
+    margin: 80px 0px;
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.bruce-client{
+   text-align: center;
+ 
+}
+.bruce-client h4{
+    margin-bottom: 0;
+}
+.bruce-client span{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+ 
+}
+.bruce-client p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(26, 25, 25);
+}
+.contact-info{
+    width: 600px;
+    margin: auto;
+    background-image:linear-gradient(45deg,lightsalmon,tomato) ;
+    margin-top: 70px;
+    text-align: center;
+    padding: 50px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}
+/* Clients Section End */
+/* Footer Section */
+footer{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+/* Footer Section */
