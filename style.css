@@ -64,6 +64,9 @@ section{
 #bio-section{
     background-image: url(images/biography-bg.png);
 }
+#bio-section h2{
+    text-transform: capitalize;
+}
 .bio-head{
     margin-top: 150px;
 }
@@ -82,6 +85,7 @@ section{
 #work-section h2{
     text-align: center;
     margin: 80px 0px;
+    font-size:32px;
 }
 .letest-works{
     width: 1170px;
